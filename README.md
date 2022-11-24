@@ -12,3 +12,14 @@ Applying a machine-learning algorithm to identify phishing websites is the major
 We suggested a clever, adaptable, and successful method that is based on applying classification algorithms in order to identify and anticipate e-banking phishing websites. We used classification methods and approaches to extract the phishing datasets' eligibility criteria and interpret them. 
 
 The e-banking phishing website may be identified using various key features, including the URL and domain identification, security and encryption requirements, and the overall phishing detection rate. Once a user completes an online transaction and pays through an e-banking website, our system uses a data mining algorithm to determine if the e-banking website is legitimate or a phishing website.
+### Team Members :  <picture><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f603/512.gif" alt="😃" width="30" height="30"></picture>
+
+   
+
+  - Ashiq Mohammed M (Team Leader)
+
+  - Pradeesh E
+
+  - Jeevanantham M
+
+  - Anandhu B S
