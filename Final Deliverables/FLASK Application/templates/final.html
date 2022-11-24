@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./static/css/style.css">
+        <title>Phishing Detection</title>
+        <link rel="preconnect" href="https://font.googleapis.com">
+        <link rel="preconnect" href="https://font.gstatic.com" crossorigin>
+        <link href="https://font.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="brand">
+                        <h1><span>PNT</span>2022  <span>TMID</span>43816</h1>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger">
+                            <div class="bar"></div>
+                        </div>
+                            <ul>
+                                <li><a href="{{ url_for('home')}}" data-after="Home">Home</a></li>
+                                <li><a href="{{ url_for('about')}}" data-after="About">About</a></li>
+                                <li><a href="{{ url_for('contact')}}" data-after="Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+        </section>
+        <!-- End Header -->
+        <!-- Hero Section  -->
+        <section id="home">
+            <div class="home container">
+                <div>
+                     <h1><span>WEB PHISHING DETECTION USING MACHINE LEARNING</span></h1><br><br><br><br>
+                    <form action="/predict" method="post">
+                        <input  type="text" class="text" placeholder="Enter the  URL " name="url">
+                        <button class="btn" type="submit" >submit</button>
+                    </form>
+                    <br><br>
+                    <h4 class="h">{{ pred_text }}</h4>
+                    <br><br><br>
+                    <a class="url" href="{{url}}">{{url}}</a>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Section  -->    
+        <!-- Footer -->
+        <section id="footer">
+            <div class="footer container">
+                <div class="brand">
+                    <h1>© <span>PNT</span>2022 <span>TMID</span>43816</h1>
+                </div>
+                <h2> WEB PHISHING DETECTION </h2>
+                <h2>An APPLIED DATA SCIENCE based project</h2>
+            </div>
+        </section>
+        <!-- End Footer -->
+    </body>
+</html>       
